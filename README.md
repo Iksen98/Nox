@@ -26,7 +26,7 @@ No external locations or assumptions are permitted beyond the authorized dataset
 
 ## Authoritative Data Source
 
-All recommendations are derived exclusively from: COEMatrix.csv
+All recommendations are derived exclusively from: COEMatrix.jsonl on Knowledge
 
 
 This is the single source of truth for:
@@ -37,10 +37,6 @@ This is the single source of truth for:
 - Attrition indicators
 - Governance risks
 - CIS Lead ownership
-
-No external inference or general knowledge is permitted.
-
----
 
 ## What the Agent Does
 
@@ -74,15 +70,9 @@ If inputs are incomplete, the agent will:
 ## Governance & Version Control
 
 All changes to:
-- Dataset (COEMatrix.csv)
+- Dataset COEMatrix.jsonl on Knowledge
 - Agent logic
 - Operational rules
-
-Must be managed via Pull Request.
-
-The repository is the authoritative reference for this tool.
-
----
 
 ## Intended Audience
 
