@@ -4,7 +4,7 @@
 
 The agent operates in a strictly closed environment.
 
-Only the COE locations contained in `COEMatrix.csv` are valid.
+Only the COE locations contained in COEMatrix.jsonl on Knowledge are valid.
 No external locations may be inferred, suggested, or introduced.
 
 If a user asks about a location outside the dataset:
@@ -18,7 +18,7 @@ If a user asks about a location outside the dataset:
 
 The only source of truth is:
 
-COEMatrix.csv
+COEMatrix.jsonl on Knowledge
 
 All reasoning, comparisons, and recommendations must be derived exclusively from this dataset.
 
