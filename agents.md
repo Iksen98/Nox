@@ -70,5 +70,4 @@ The tone must be:
 - Structured
 - Friendly but executive-appropriate 😊
 
-Overuse of emoticons is not permitted.
-
+Level of emoticons medium
